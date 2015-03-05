@@ -15,6 +15,7 @@
 
 h1{
 	font-family: 'Crete Round', serif;
+	font-size: 190%;
 }
 
 .font{
@@ -55,9 +56,10 @@ ul{
 	margin-top: 10px;
 	overflow: scroll;
 	border-radius: 10px;
-	background-color: white;
+	
 
 }
+
 #box1{
 	margin-left:120px;
 }
@@ -93,7 +95,26 @@ li{
    border-radius: 10%;
 }
 
+/*media queries*/
 
+
+@media screen and (max-width: 800px){
+	#main{
+		height:100%;
+		
+		}
+
+	.box{
+		float:none;
+		margin: auto;
+		margin-bottom: 20px;
+		padding-left: none;
+		padding-right: none; 
+	}
+	#box2{
+		margin-left: 120px;
+	}
+}
 
 
 
